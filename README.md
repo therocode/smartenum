@@ -2,7 +2,7 @@
 Macros for declaring enums in C++ that include to_string conversion and looping through all enum values
 
 ## Purpose
-Sometimes, you find the need of converting enum values to strings mostly for debugging/logging purposes. This can easily be achieved by maintaining a map that maps the enum values to strings. Doing this manually however is a source for errors since one might forget to update it when enum values are added, or just do a mistake when copy-pasting. I am also a fan of reducing boilerplating. These factors made me create this header file.
+Sometimes, you find the need of converting enum values to strings mostly for debugging/logging purposes. This can easily be achieved by maintaining a map that maps the enum values to strings. Doing this manually however is a source for errors since one might forget to update it when enum values are added, or just make a mistake when copy-pasting. I am also a fan of reducing boilerplating. These factors made me create this header file.
 
 ## Features
 * Automatic generation of to_string functions for converting enum values to string representations
