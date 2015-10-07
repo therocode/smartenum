@@ -13,7 +13,7 @@ Sometimes, you find the need of converting enum values to strings mostly for deb
 ## Usage
 Smart enums are very easy to use. The code below shows it all.
 
-```
+```cpp
 #include "smartenum.hpp"
 
 //declares a normal enum 'Day'
