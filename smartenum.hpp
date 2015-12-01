@@ -58,7 +58,7 @@ namespace smart_enum
             if(equalSignPos != std::string::npos)
             {
                 std::string rightHandSide = currentEnumEntry.substr(equalSignPos + 1);
-                currentEnumValue = std::stoi(rightHandSide);
+                currentEnumValue = std::stoi(rightHandSide, 0, 0);
                 currentEnumEntry.erase(equalSignPos);
             }
     
@@ -86,7 +86,7 @@ namespace smart_enum
             if(equalSignPos != std::string::npos)
             {
                 std::string rightHandSide = currentEnumEntry.substr(equalSignPos + 1);
-                currentEnumValue = std::stoi(rightHandSide);
+                currentEnumValue = std::stoi(rightHandSide, 0, 0);
                 currentEnumEntry.erase(equalSignPos);
             }
     
