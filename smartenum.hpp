@@ -159,7 +159,7 @@ namespace smart_enum
         return outStream;\
     }\
     \
-    inline const Type to_enum_class(const std::string& name)\
+    inline const Type Type##_to_enum_class(const std::string& name)\
     {\
         return static_cast<Type>(Type##_enum_values.at(name));\
     }
